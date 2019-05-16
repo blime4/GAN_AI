@@ -36,7 +36,7 @@
    >
    > 这里做两个变动
    >
-   > ​				1.	把 $$\sum{j}\omega_jx_j$$ 改写成**点乘** , $$\omega\cdot x \equiv  \sum{j}\omega_jx_j$$  
+   > ​				1.	把 $$ \sum{j}\omega_jx_j $$ 改写成**点乘** , $$ \omega\cdot x \equiv  \sum{j}\omega_jx_j $$  
    >
    > ​				2.	**偏置 b**  $$b \equiv -threshold$$ 
    >
