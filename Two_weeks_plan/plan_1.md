@@ -95,9 +95,9 @@
    >
    >   6. **实现我们的网络来分类数字**
    >
-   >      [MNIST入门]()
+   >      [MNIST入门](https://github.com/blime4/GAN_AI/blob/master/Code/Plan_1_MNIST_91%25.py)
    >
-   >      [MNIST改进]()
+   >      [MNIST改进](https://github.com/blime4/GAN_AI/blob/master/Code/Plan_1_MNIST_98%25.py)
    >
    >   7. **迈向深度学习**
    >
