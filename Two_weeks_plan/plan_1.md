@@ -125,6 +125,10 @@
   
 3. ### 通过学习卷积神经网络CNN来初步了解tensorflow
 
+   + CNN结构演化图:
+
+     ![选区_019](/home/blime/GAN_AI/Two_weeks_plan/images/选区_019.png)
+
    + 初阶:	可以直接看视频;
 
      ​	[什么是卷积神经网络](https://www.bilibili.com/video/av16001891/?p=25)
@@ -153,13 +157,25 @@
 
      + Inception-v3 模型
 
-       >
-
+       >Inception结构是一种和LeNet-5结构完全不同的卷积神经网络结构
+     >
+       >![选区_018](/home/blime/图片/选区_018.png)
+     >
+       >解释:
+     >
+       >​	
+       
        代码:
-
+       
        ​	[LeNet-5 模型]()
-
+       
        ​	[Inception-v3 模型]()
+       
+       参考链接:
+       
+       ​	[Inceptionv1到 v4](https://blog.csdn.net/u014114990/article/details/52583912)
+       
+       ​	
 
    + 高阶:     
 
