@@ -216,5 +216,13 @@
 
 4. ### 创建一个github项目共享我们的工作内容以及存放一些书籍文档
 
- 
+   > + [github项目](https://github.com/blime4/GAN_AI)
+   >
+   > + 如何使用git
+   >
+   >   ![选区_024](./images/选区_024.png)
+   >
+   >   [bilibili的一个比较简单的一个教程,有需要可以快速学习一下](https://www.bilibili.com/video/av23853294?from=search&seid=1287734531504507723)
+   >
+   >   
 
