@@ -158,27 +158,60 @@
      + Inception-v3 模型
 
        >Inception结构是一种和LeNet-5结构完全不同的卷积神经网络结构
+       >
+       >**Inceptionv1:**
+     >![选区_018](./images/选区_018.png)
      >
-       >![选区_018](/home/blime/图片/选区_018.png)
+     >![选区_021](./images/选区_021.png)
      >
-       >解释:
+     >解释:
      >
-       >​	
-       
+     >在原始的输入层,以不同的过滤器,卷积和池化得到一个Filter Concat(卷积连接层).**Inception module** 的提出主要考虑多个不同 size 的卷积核能够增强网络的适应力，Inception v1 中分别使用1\*1、3\*3、5\*5卷积核，同时加入3*3 max pooling。
+     >
+     >**每一层 Inception module 的 filters 参数量为所有分支上的总数和，多层 Inception 最终将导致 model 的参数数量庞大，对计算资源有更大的依赖。**
+     >
+     >Inception V1——构建了1x1、3x3、5x5的 conv 和3x3的 pooling 的分支网络，同时使用 MLPConv 和全局平均池化，扩宽卷积层网络宽度，增加了网络对尺度的适应性；
+     >
+     >> **Inception V2:**
+     >
+     >Inception V2 学习了 **VGG** 用两个3´3的卷积代替5´5的大卷积，在降低参数的同时建立了更多的非线性变换，使得 CNN 对特征的学习能力更强：
+     >
+     >![选区_022](./images/选区_022.png)
+     >
+     >(另外提出了著名的 **Batch Normalization**（以下简称BN）方法。BN 是一个非常有效的正则化方法，可以让大型卷积网络的训练速度加快很多倍，同时收敛后的分类准确率也可以得到大幅提高。)
+     >
+     >> **Inception V3:**
+     >
+     >![选区_023](./images/选区_023.png)
+     >
+     >引入了 Factorization into small convolutions 的思想，将一个较大的二维卷积拆成两个较小的一维卷积，比如将7´7卷积拆成1´7卷积和7´1卷积，或者将3´3卷积拆成1´3卷积和3´1卷积，如上图所示。一方面节约了大量参数，加速运算并减轻了过拟合（比将7´7卷积拆成1´7卷积和7´1卷积，比拆成3个3´3卷积更节约参数），同时增加了一层非线性扩展模型表达能力。 
+     >
+     >> **Inception v4:**
+
        代码:
-       
+
        ​	[LeNet-5 模型]()
-       
+
        ​	[Inception-v3 模型]()
-       
+
        参考链接:
-       
+
        ​	[Inceptionv1到 v4](https://blog.csdn.net/u014114990/article/details/52583912)
-       
-       ​	
+
+       	[Inception家族](http://baijiahao.baidu.com/s?id=1601882944953788623&wfr=spider&for=pc)
+
+     ​	  [CNN卷积神经网络_ GoogLeNet 之 Inception(V1-V4)](https://blog.csdn.net/diamonjoy_zone/article/details/70576775)
 
    + 高阶:     
 
+     + VGG
+     
+     + GoogLeNet
+     
+     + AlexNet
+     
+       [代码实现]()
+     
      
 
 4. ### 创建一个github项目共享我们的工作内容以及存放一些书籍文档
