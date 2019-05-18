@@ -224,5 +224,5 @@
    >
    >   [bilibili的一个比较简单的一个教程,有需要可以快速学习一下](https://www.bilibili.com/video/av23853294?from=search&seid=1287734531504507723)
    >
-   >   
+   >   [廖雪峰的git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
 
