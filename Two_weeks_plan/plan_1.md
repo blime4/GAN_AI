@@ -200,6 +200,8 @@
 
    ​	  [CNN卷积神经网络_ GoogLeNet 之 Inception(V1-V4)](https://blog.csdn.net/diamonjoy_zone/article/details/70576775)
 
+   ​      [Inception家族](https://www.chainnews.com/articles/727946354364.htm)
+
    + 高阶:     
 
      + VGG
