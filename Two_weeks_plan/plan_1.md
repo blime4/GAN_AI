@@ -198,7 +198,7 @@
 
      ​	[Inceptionv1到 v4](https://blog.csdn.net/u014114990/article/details/52583912)
 
-     	[Inception家族](http://baijiahao.baidu.com/s?id=1601882944953788623&wfr=spider&for=pc)
+     	[Inception家族](https://www.chainnews.com/articles/727946354364.htm)
 
    ​	  [CNN卷积神经网络_ GoogLeNet 之 Inception(V1-V4)](https://blog.csdn.net/diamonjoy_zone/article/details/70576775)
 
